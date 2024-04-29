@@ -1,6 +1,6 @@
 
 import express from 'express';
-import { handleUserRequests } from '../controllers/gatewayControllers';
+import { handleUserRequests } from '../controllers/gatewayControllers.js';
 
 const router = express.Router();
 
